@@ -1,17 +1,52 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int intOperandA = 5;
+        int intOperandB = 2;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Assignment that uses the arithmetic operator +
+        int intSum = intOperandA + intOperandB;
+        System.out.println("The sum of " + intOperandA + " and " + intOperandB + " is " + intSum);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        // Assignment that uses the arithmetic operator *
+        int intProduct = intOperandA * intOperandB;
+        System.out.println("The product of " + intOperandA + " and " + intOperandB + " is " + intProduct);
+
+        // Assignment that uses the arithmetic operator -
+        int intDifference = intOperandA - intOperandB;
+        System.out.println("The difference between " + intOperandA + " and " + intOperandB + " is " + intDifference);
+
+        // Assignment that uses the arithmetic operator /
+        int intQuotient = intOperandA / intOperandB;
+        System.out.println("The quotient of " + intOperandA + " divided by " + intOperandB + " is " + intQuotient);
+
+        // Assignment that uses the arithmetic operator %
+        int intModulo = intOperandA % intOperandB;
+        System.out.println("The modulo (remainder) of " + intOperandA + " divided by " + intOperandB + " is " + intModulo);
+
+
+        double doubleOperandA = 3.50;
+        double doubleOperandB = 2.25;
+
+        // Assignment that uses the arithmetic operator +
+        double doubleSum = doubleOperandA + doubleOperandB;
+        System.out.println("The sum of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+
+        // Assignment that uses the arithmetic operator *
+        double doubleProduct = doubleOperandA * doubleOperandB;
+        System.out.println("The product of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
+
+        // Assignment that uses the arithmetic operator -
+        double doubleDifference = doubleOperandA - doubleOperandB;
+        System.out.println("The difference between " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+
+        // Assignment that uses the arithmetic operator /
+        double doubleQuotient = doubleOperandA / doubleOperandB;
+        System.out.println("The quotient of " + doubleOperandA + " divided by " + doubleOperandB + " is " + doubleQuotient);
+
+        // Assignment that uses the arithmetic operator %
+        double doubleModulo = doubleOperandA % doubleOperandB;
+        System.out.println("The modulo (remainder) of " + doubleOperandA + " divided by " + doubleOperandB + " is " + doubleModulo);
     }
 }
