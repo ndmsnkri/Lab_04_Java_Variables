@@ -23,7 +23,7 @@ public class Main
 
         // Assignment that uses the arithmetic operator %
         int intModulo = intOperandA % intOperandB;
-        System.out.println("The modulo (remainder) of " + intOperandA + " divided by " + intOperandB + " is " + intModulo);
+        System.out.println("The modulo of " + intOperandA + " divided by " + intOperandB + " is " + intModulo);
 
 
         double doubleOperandA = 3.50;
@@ -47,6 +47,6 @@ public class Main
 
         // Assignment that uses the arithmetic operator %
         double doubleModulo = doubleOperandA % doubleOperandB;
-        System.out.println("The modulo (remainder) of " + doubleOperandA + " divided by " + doubleOperandB + " is " + doubleModulo);
+        System.out.println("The modulo of " + doubleOperandA + " divided by " + doubleOperandB + " is " + doubleModulo);
     }
 }
