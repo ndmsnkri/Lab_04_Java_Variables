@@ -1,7 +1,6 @@
 public class Main
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int intOperandA = 5;
         int intOperandB = 2;
 
@@ -77,8 +76,8 @@ public class Main
         String fullName = "John Doe";
         System.out.println("My full name is: " + fullName);
 
-
-
-
     }
+
+
+
 }
