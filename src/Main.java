@@ -48,5 +48,37 @@ public class Main
         // Assignment that uses the arithmetic operator %
         double doubleModulo = doubleOperandA % doubleOperandB;
         System.out.println("The modulo of " + doubleOperandA + " divided by " + doubleOperandB + " is " + doubleModulo);
+
+        // The number of kids in your family
+        int numberOfKidsInFamily = 3;
+        System.out.println("The number of kids in my family is: " + numberOfKidsInFamily);
+
+        // The answer to "Is it raining?"
+        boolean isItRaining = true;
+        System.out.println("Is it raining? " + (isItRaining ? "Yes" : "No"));
+
+        // The price of a gallon of gas
+        double priceOfGasPerGallon = 3.25;
+        System.out.println("The price of a gallon of gas is: $" + priceOfGasPerGallon);
+
+        // Your favorite number
+        int favoriteNumber = 7;
+        System.out.println("My favorite number is: " + favoriteNumber);
+
+        // Your shoe size
+        double shoeSize = 9.5;
+        System.out.println("My shoe size is: " + shoeSize);
+
+        // Your birth month
+        String birthMonth = "September";
+        System.out.println("My birth month is: " + birthMonth);
+
+        // Your full name
+        String fullName = "John Doe";
+        System.out.println("My full name is: " + fullName);
+
+
+
+
     }
 }
